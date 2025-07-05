@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="timer.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="timer">
+            <div class="svg-glow-blob"></div>
+            <div class="time">
+                <span id="minute">00</span>:<span id="second">00</span>
+                <span class="small"> FOCUS SESSION</span>
+            </div>
+            <svg width="300" height="300">
+                <circle id="circle1" cx="150" cy="150" r="120"></circle>
+                <circle id="circle2" cx="150" cy="150" r="120" transform="rotate(-90 150 150)"></circle>
+            </svg>
+        </div>
+        <div class="glass">
+            <button id="button" class="small glass-button px-2">
+                <span class="glow-blob"></span>
+                <i class="fa-solid fa-play ms-2"></i> Start
+            </button>
+        </div>
+        <script src="timer.js"></script>
+</body>
+
+</html>

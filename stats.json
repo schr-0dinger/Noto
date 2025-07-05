@@ -1,0 +1,28 @@
+{
+  "totalHours": 14.0,
+  "targetHours": 200,
+  "totalSessions": 0,
+  "streak": {
+    "current": 0,
+    "best": 0
+  },
+  "rank": {
+    "name": "Iron",
+    "minHours": 10,
+    "color": "iron"
+  },
+  "averages": {
+    "last7Days": 0.0,
+    "last30Days": 0,
+    "totalAvg": 0
+  },
+  "today": {
+    "sessions": 0,
+    "durationMinutes": 0
+  },
+  "total": {
+    "sessions": 0,
+    "durationMinutes": 0
+  },
+  "activityHistory": 0 
+}

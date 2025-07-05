@@ -1,0 +1,152 @@
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.card-custom {
+  background-color: #11111113;
+  /* Deep blackish card */
+  border: 1px solid #222;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.02);
+}
+
+.badge-custom {
+  background: linear-gradient(to left top, #573ae3, #61b1f6, #69bff8);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  --bs-progress-bg: #1d1d1d;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, #573ae3, #5ffbf1);
+}
+
+#target-progress {
+  background: linear-gradient(to right, #db2777, #c084fc);
+}
+
+.shade {
+  color: #a1a1aa;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.smaller {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .fs-3 {
+    font-size: 1.5rem !important;
+  }
+
+  .badge-custom {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+.svg-glow-blob {
+  position: absolute;
+  width: 700px;
+  height: 80px;
+  background: #1e50ad4f;
+  border-radius: 10%;
+  transform: translate(-20%, -20%);
+  filter: blur(40px);
+  z-index: -1;
+}
+
+.iron {
+  background: linear-gradient(to left top, #1F1C2C, #928DAB);
+}
+
+.copper {
+  background: linear-gradient(to left top, #B79891, #94716B);
+}
+
+.bronze {
+  background: linear-gradient(to left top, #B08D57, #CD7F32);
+}
+
+.silver {
+  background: linear-gradient(to left top, #8e9eab, #eef2f3)
+}
+
+.gold {
+  background: linear-gradient(to left top, #b27f1f, #fefe68)
+}
+
+.platinum {
+  background: linear-gradient(to left top, #d9d8d6, #faf9f6)
+}
+
+.titanium {
+  background: linear-gradient(to left top, #283048, #859398)
+}
+
+.crystal {
+  background: linear-gradient(to left top, #159957, #155799)
+}
+
+.pearl {
+  background: linear-gradient(to left top, #FFAFBD, #ffc3a0)
+}
+
+.sapphire {
+  background: linear-gradient(to left top, #1488CC, #2B32B2)
+}
+
+.ruby {
+  background: linear-gradient(to left top, #333333, #dd1818 )
+}
+
+.emerald {
+  background: linear-gradient(to left top, #52c234 , #061700 )
+}
+
+.diamond {
+  background: linear-gradient(to right top, #0b3541, #469CAD, #aeced5, #DBEAEC )
+}
+
+.obsidian {
+  background: linear-gradient(to left top, #2e293a , #3d354b, #5b4965, #71627a )
+}
+
+.jade {
+  background: linear-gradient(to left top, #0e6765 , #167d7b, #1f7f83, #2a9b98, #4db3a8, #74c5b9, #9fd6cb, #b8e3d9 )
+}
+
+.amethyst {
+  background: linear-gradient(to left top, #9D50BB , #6E48AA )
+}
+
+.moonstone {
+  background: linear-gradient(to left top,#477edf, #9995ee, #bfbcf4, #b791cb, #fff8e5  )
+}
+
+.meteorite {
+  background: linear-gradient(to left top, #FF8526, #8D5BD0, #E83D99, #325EAA )
+}
+
+.unobtainium {
+  background: linear-gradient(to left top, #23074d, #cc5333 )
+}

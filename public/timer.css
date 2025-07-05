@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+  background-color: #000;
+  text-align:center;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer{
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.time{
+  font-size: 40px;
+  color: #fff;
+}
+
+svg{
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+circle{
+  stroke-width: 0.6rem;
+  fill: transparent;
+  stroke-linecap: round;
+  transform: rotate(90);
+}
+
+#circle1{
+  stroke: rgba(83, 83, 83, 0.4);
+}
+
+#circle2{
+  stroke: #34d399;
+  transition: 1s linear;
+}
+
+button{
+  vertical-align: middle;
+  width: 80px;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+}
+
+button:focus{
+  outline:none;
+}
+
+button:active{
+  box-shadow: inset 0px 0px 1px 2px #1b262c;
+}
+
+#button{
+  background-color: #34d3991a ;
+  color: #34d399;
+}
+
+
+#reset{
+  background-color: #3282b8;
+}
+
+.small {
+    font-size: 0.8rem !important;
+}
+
+.glass-button {
+  position: relative;
+  font-size: 14px;
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.glass-button:hover .glow-blob {
+  width: 80px;
+  height: 80px;
+  transition: 0.3s ease;
+}
+
+.glow-blob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background: #34d39933;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.svg-glow-blob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: #34d39933;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(50px);
+  z-index: -2;
+}
